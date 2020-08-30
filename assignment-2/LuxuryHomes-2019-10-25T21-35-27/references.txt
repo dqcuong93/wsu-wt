@@ -1,4 +1,0 @@
-https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server#how
-https://stackoverflow.com/questions/33203173/change-innerhtml-on-button-click
-https://www.freelogodesign.org/
-https://app.oneall.com/
