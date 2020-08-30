@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Cuong Quoc Dao">
+    <meta name="student ID" content="19789590">
+    <meta name="description" content="assignment 1">
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <title>Online books station | About the author</title>
+    <script type="text/javascript" src="../js/generaljs.js"></script>
+  </head>
+
+  <body>
+      <!-- header -->
+      <header>
+        <div class="container">
+          <div id="brand">
+            <h1><span class="highlight">Online</span> Books station</h1>
+            <p>The 1<sup>st</sup> online books station <span class="highlight">for ICT industry</span></p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="store.html">Store locations</a></li>
+              <li><a href="building.html">Contact</a></li>
+              <li><a href="building.html">Account</a></li>
+              <li class="current" id="dropdown_menu">About
+                <div id="dropdown_content">
+                    <a href="author.html">About the author</a>
+                    <a href="history.html">History of the store</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- begin main body -->
+      <section id="about_author">
+        <div class="container">
+          <div id="author_information">
+            <div id="education">
+              <h1>Education</h1>
+              <img src="../img/education.jpeg" alt="education">
+              <p>Gratuated from 2015 with the Information Technology background.</p>
+              <p>Former  major in University: mobile development.</p>
+              <p>Now studying Master of Administration. However, the major is also Information and Communication Techonology.</p>
+            </div>
+            <div id="career">
+              <h1>Career</h1>
+              <img src="../img/career.jpg" alt="career">
+              <p>From 2015 to 2019: worked as an IT specialist (primary job) at PetroVietnam group, a government-based group.</p>
+              <p>Meanwhile in 2017: worked part-time (simultaneous with primary job) as a back-ended developer at Goody Chat Co., LTD.</p>
+            </div>
+            <div id="future_goal">
+              <h1>Future goal</h1>
+              <img src="../img/goal.jpg" alt="goal">
+              <p>Continue to study, research and fulfil the knowledge in both business and technical sides.</p>
+              <p>Develop solf-skills along with hard-skills.</p>
+            </div>
+          </div>
+          <aside id="contact_author">
+            <h2>Contact the author</h2>
+            <img src="../img/profile-picture.png" alt="profile-picture">
+            <form id="email_form" action="mailto:dqcuong93@yahoo.com.vn" method="post" enctype="text/plain">
+              <label>Name</label>
+              <input name="name" type="text" placeholder="Type your name here" autocomplete="on">
+              <label>Email</label>
+              <input  id="email" name="email" type="email" placeholder="Type your email here" autocomplete="on">
+              <label>Message</label>
+              <textarea name="message" placeholder="Type your message here" rows="5"></textarea>
+              <button type="button" onclick="validateEmail();">Send email</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+      <!-- end main body -->
+
+      <footer>
+        <h4>Assignment 1 - 19789590 - Cuong Quoc Dao</h4>
+      </footer>
+  </body>
+</html>

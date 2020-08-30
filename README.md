@@ -1,2 +1,7 @@
-# wsu-wt
-WSU - 19789590 - Web Technologies
+# Western Sydney University
+Unit: Web Technologies.
+
+Student ID: 19789590. 
+
+## Contributor
+Author: Chris Dao (dqcuong93@gmail.com)

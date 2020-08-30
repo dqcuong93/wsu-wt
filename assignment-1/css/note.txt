@@ -1,0 +1,1 @@
+To change the style, please just copy 1 of those 2 file in 'css tank' folder and change the name to 'style.css'

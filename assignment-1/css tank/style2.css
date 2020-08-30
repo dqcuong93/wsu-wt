@@ -1,0 +1,319 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #535c68;
+}
+
+/* Global goes here */
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.current {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.highlight {
+  border-style: dotted;
+  border-radius: 10px;
+}
+
+.button, button {
+    width: 40%;
+    border: none;
+    font-size: 11pt;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    background-color: #ffbe76;
+    color: #130f40;
+}
+
+.button:hover, button:hover {
+  font-weight: bold;
+  width: 50%;
+}
+
+.table {
+  margin: 10px auto auto auto;
+  width: 95%;
+  border-collapse: collapse;
+}
+
+.table th {
+  border-bottom: 2px;
+  border-bottom-style: solid;
+}
+
+.table td {
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(246, 229, 141,1.0);
+}
+
+.table tr:hover {
+  background-color: #795548;
+  color: #ecf0f1;
+}
+
+.table input {
+  width: 100%;
+  background-color: inherit;
+  margin: auto;
+  border: none;
+  text-align: center;
+}
+
+.data_illustrate button {
+  width: 40%;
+  margin: 15px 30% 10px 30%;
+}
+
+.announcement p {
+  padding-top: 150px;
+  min-height: 300px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20pt;
+  font-weight: bold;
+}
+/* End global */
+
+/* Header */
+
+header {
+  background-image: url("../img/vintage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#brand, header nav {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  color: #130f40;
+}
+
+#brand h1 {
+  padding: 10px;
+  margin: 0;
+  font-size: 30pt;
+}
+
+#brand p, nav {
+  margin: 0;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+header nav {
+  padding: 10px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #130f40;
+}
+
+#dropdown_menu {
+  position: relative;
+}
+
+#dropdown_menu:hover #dropdown_content {
+  display: block;
+}
+
+#dropdown_content {
+  display: none;
+  position: fixed;
+  border-style: double;
+  border-color: #130f40;
+  background-color: #c7ecee;
+}
+
+/* End header */
+
+/* Main body */
+
+section div.container {
+  color: #130f40;
+  background-image: url("../img/paper.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+#welcome_sign {
+  text-align: center;
+  height: 600px;
+}
+
+#welcome_sign h1 {
+  margin: 15px 0 0 0;
+  padding: 70px 0 10px 0;
+  font-size: 2em;
+}
+
+#welcome_sign p {
+  font-size: 1.5em;
+}
+
+#author_information img {
+  width: 70%;
+  margin-left: 15%;
+}
+
+#author_information h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#author_information p {
+  width: 70%;
+  padding: 5px;
+  margin: auto;
+  font-size: 13pt;
+}
+
+#selection_option {
+  padding-bottom: 10px;
+}
+
+#selection_option h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#db_form select {
+  display: block;
+  width: 60%;
+  margin: auto;
+  font-size: 13pt;
+  border: none;
+}
+
+#db_form input, #db_form button, #selection_option button {
+  display: block;
+}
+
+#more_option {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#more_option h3, #more_option h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+#more_option label {
+  display: block;
+}
+
+#more_option select {
+  width: 30%;
+  border: none;
+  font-size: 10pt;
+}
+
+#db_insert form button {
+  margin-left: 6px;
+  width: 49%;
+}
+
+#history article {
+  text-align: center;
+  min-height: 300px;
+}
+
+#history h1 {
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+#store table img {
+  width: 100%;
+  margin: auto;
+}
+
+/* End main body */
+
+/* Aside */
+
+#contact_author {
+  width: 85%;
+  height: 300px;
+  margin: auto;
+}
+
+#contact_author h2 {
+  text-align: center;
+}
+
+#contact_author img {
+  width: 25%;
+  float: left;
+  margin-left: 15px;
+  padding: 0;
+}
+
+#contact_author form {
+  float: right;
+  width: 65%;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+#email_form label {
+  display: block;
+  font-weight: bold;
+}
+
+#email_form input {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 25px;
+}
+
+#email_form textarea {
+  display: block;
+  border: none;
+  width: 100%;
+}
+
+/* End aside */
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #130f40;
+  margin-top: auto;
+  height: 50px;
+  width: 100%;
+  background-image: url("../img/vintage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+footer h4 {
+  padding: 15px 0 0 0;
+  margin: 13px 0 0 0;
+  font-size: 13pt;
+}
+/* End Footer */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Cuong Quoc Dao">
+    <meta name="student ID" content="19789590">
+    <meta name="description" content="assignment 1">
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/generaljs.js"></script>
+    <title>Online books station | Selection</title>
+  </head>
+
+  <body>
+      <!-- header -->
+      <header>
+        <div class="container">
+          <div id="brand">
+            <h1><span class="highlight">Online</span> Books station</h1>
+            <p>The 1<sup>st</sup> online books station <span class="highlight">for ICT industry</span></p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="store.html">Store locations</a></li>
+              <li><a href="building.html">Contact</a></li>
+              <li><a href="building.html">Account</a></li>
+              <li id="dropdown_menu">About
+                <div id="dropdown_content">
+                    <a href="author.html">About the author</a>
+                    <a href="history.html">History of the store</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- begin main body -->
+      <section id="selection">
+        <div class="container">
+          <div id="selection_option">
+            <h1>Choose an option to retrieve information you want</h1>
+            <form id="db_form" method="POST" action="../php/db_access.php">
+              <select name="option" onchange="optionChange(this);">
+                <option selected>Book</option>
+                <option>Report</option>
+                <option>Reviewer</option>
+                <option>Author</option>
+                <option>Authorship</option>
+              </select>
+              <input class="button" type="button"
+                onclick="submit();" value="Click to retrive data">
+              <button type="submit" id="db_insert_btn"
+                onclick="formActionChange('db_form', 'db_insert_form');">Insert data into <u>Book</u> database</button>
+            </form>
+            <button onclick="getHTML('homepage');">Go back to homepage</button>
+          </div>
+        </div>
+      </section>
+      <!-- end main body -->
+
+      <footer>
+        <h4>Assignment 1 - 19789590 - Cuong Quoc Dao</h4>
+      </footer>
+  </body>
+</html>
+
+<!--
+
+references
+
+images:
+https://hatchasia.com.sg/defining-career-finding-passion-work/
+http://milewalk.com/mwblog/what-is-a-goal-out-of-reach-but-in-sight/
+https://www.forbes.com/sites/enriquedans/2018/03/09/why-textbooks-and-education-are-to-blame-for-fake-news/#40608a1c42e9
+https://blog.mustdotravels.com/discover-downtown-los-angeles-last-bookstore/
+
+colors:
+https://www.materialui.co/colors
+
+-->

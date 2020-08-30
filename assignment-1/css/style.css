@@ -1,0 +1,343 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif, serif;
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #ecf0f1;
+}
+
+/* Global goes here  */
+.container {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.highlight, .current a {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.main_cover {
+  text-align: center;
+  background-image: url(../img/background_home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+button, .button {
+  display: block;
+  background-color: #e67e22;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px;
+}
+
+button:hover, .button:hover {
+  font-weight: bold;
+}
+
+.announcement p {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 250px 0 250px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+.table th, .table td {
+  border-width: medium;
+  border-color: black;
+  border-style: groove;
+  padding: 10px;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(230, 126, 34, 0.8);
+}
+
+.table tr:hover {
+  background-color: #795548;
+  color: #ecf0f1;
+}
+
+.data_illustrate button {
+  width: 60%;
+  margin: 10px auto 15px auto;
+  font-size: 15px;
+}
+/* End global here  */
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  min-height: 100px;
+}
+
+header a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+header #brand {
+  float: left;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+header p {
+  padding: 0;
+  margin-top: 0;
+}
+
+nav {
+  float: right;
+  margin-top: 30px;
+}
+
+nav ul li.current {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline;
+  padding: 7px;
+  margin: 0;
+}
+
+#dropdown_menu {
+  display: inline-block;
+  position: relative;
+}
+
+#dropdown_content {
+  display: none;
+  position: fixed;
+  padding: 5px;
+  background-color: #2c3e50;
+  border-style: dotted;
+  border-color: #e67e22;
+}
+
+#dropdown_content a {
+  color: #ecf0f1;
+  display: block;
+  font-weight: normal;
+}
+
+#dropdown_menu:hover {
+  font-weight: bold;
+}
+
+#dropdown_menu:hover #dropdown_content {
+  display: block;
+  font-weight: normal;
+}
+
+#dropdown_content a:hover{
+  font-weight: bold;
+}
+/* End header */
+
+/* Main body */
+#welcome_sign {
+  background-color: rgb(44, 62, 80, 0.7);
+  width: 70%;
+  margin: 15%;
+  padding: 10px auto 10px auto;
+  color: #ecf0f1;
+  font-size: 27px;
+}
+
+#author_information img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+#author_information {
+  float: left;
+  width: 68%;
+  margin: 0;
+  padding: 5px;
+}
+
+#welcome_sign form button {
+  width: 90%;
+  font-size: 22px;
+  margin: auto auto 10px auto;
+}
+
+article {
+  color: #ecf0f1;
+  background-color: rgb(44, 62, 80, 0.7);
+}
+
+article h1 {
+  font-size: 30px;
+}
+
+#selection {
+  height: 600px;
+  text-align: center;
+}
+
+#selection_option h1 {
+  text-transform: capitalize;
+  text-decoration: underline;
+  padding: 30px;
+  margin-top: 30px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-color: #e67e22;
+  border-style: double;
+}
+
+#selection_option select {
+  border: none;
+  display: block;
+  width: 40%;
+  margin: auto;
+  font-size:16px;
+}
+#selection_option input, #selection_option button {
+  width: 40%;
+  margin: 20px auto auto auto;
+  font-size: 16px;
+}
+
+#db_insert form button {
+  width: 40%;
+  margin: 10px auto 10px auto;
+  font-size: 15px;
+}
+
+#db_insert form table input, #db_modify_form form table input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  background-color: inherit;
+  font-size: 14px;
+}
+
+#more_option {
+  text-align: center;
+  width: 50%;
+  height: 100px;
+  margin: auto auto 20px auto;
+}
+
+#action_label {
+  float: left;
+  width: 47%;
+  text-align: left;
+}
+
+#action_label label{
+  display: block;
+}
+
+#book_select {
+  float: right;
+  width: 45%;
+}
+
+#book_select h4 {
+  margin: 0;
+}
+
+#book_select select {
+  font-size: 12pt;
+  border: none;
+}
+
+#history article {
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+#history h1 {
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+#store div {
+  background-color: white;
+}
+
+#store table img {
+  width: 100%;
+  height: 50%;
+  margin: auto;
+}
+
+/* End main body */
+
+/* aside */
+aside#contact_author {
+  float: right;
+  width: 30%;
+  margin-top: 85px;
+  height: 350px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+aside#contact_author h2 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+aside#contact_author img {
+  float: right;
+  width: 40%;
+  height: auto;
+  margin-right: 5%;
+}
+
+aside#contact_author input,
+aside#contact_author label,
+aside#contact_author textarea {
+  display: block;
+  width: 47%;
+  margin: auto auto auto 5%;
+}
+
+aside#contact_author form button {
+  width: 90%;
+  margin: 10px auto auto auto;
+  font-size: 15px;
+}
+/* End aside */
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  padding: 5px;
+  text-align: center;
+  color: #ecf0f1;
+  width: 100%;
+  margin-top: 0;
+}
+/* End footer */
